@@ -1,0 +1,23 @@
+.res-appl-admin {
+    width: 100%;
+    background-color: #db5a28;
+    min-height: max-content;
+    margin-top: 2.5em;
+    padding: 1em;
+
+    .heading-container {
+        text-align: center;
+        align-items: center;
+
+        .heading {
+            padding-bottom: 0.5em;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 900;
+            font: "roboto";
+            text-align: center;
+        }
+    }
+
+    border-top: 1em;
+}

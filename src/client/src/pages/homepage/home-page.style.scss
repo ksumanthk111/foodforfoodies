@@ -1,0 +1,29 @@
+.home-page {
+  padding: 20px;
+  height: auto;
+  color: black;
+  background: #db5a28;
+  background: -webkit-linear-gradient(to top, #db5a28, #eba03c);
+  background: linear-gradient(to top, #db5a28, #eba03c);
+
+  .recommended-restaurant {
+    font-size: 24px;
+    font-family: monospace;
+    margin: 8px;
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+    background: #eba03c;
+    background: -webkit-linear-gradient(to top, #db5a28, #c1e735);
+    background: linear-gradient(to top, #db5a28, #c1e735);
+    border-radius: 0.75em;
+    font-family: sans-serif;
+    color: #db5a28;
+    text-align: center;
+    text-shadow: #1e1f1b;
+  }
+
+  .list-out-items {
+    display: flex;
+    justify-content: space-around;
+  }
+}

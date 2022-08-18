@@ -1,0 +1,72 @@
+.manage-restaurant-ById{
+    min-height: 300px;
+    width: 98%;
+    background-color: #5d5367;  
+    padding: 10px 1% 10px 1%;
+    .restaurant-name{
+        display: inline-block;
+        font-size: 400%;
+        text-align: center;
+        min-width: 100%;
+        margin: 1% auto;
+        justify-content: space-between;
+        color: #f5c664;
+        border: black solid;
+        border-radius: 20px;
+    }
+   
+
+    .restraunt-info{
+        display: grid;
+        grid-template-columns: 6fr 3fr;
+        grid-gap: 3%;
+
+        .imgdiv{
+            width: 100%;
+            height: 300px;
+            margin-left: 15px;
+            margin-top: 10px;
+            background-color: #f5c664;
+            border-radius: 1em;
+            text-align: center;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .describe-restaurant-data{
+            border: #030303;
+            border-radius: 1em;
+            background-color: #e8e3d8;
+            padding: 25px;
+            #upload-restaurant-Image{
+                font-size: 16px;
+                font-weight: 500;
+                padding-bottom: 10px;
+                font-family: 'Courier New', Courier, monospace;
+                .inline-flex{
+                    display: flex;
+                    .upload-img{
+                        border: 1px solid black;
+                        background-color:#f5c664;
+                        cursor: pointer;
+                        padding: 5px 10px 5px 10px;
+                        border-radius: 8px;
+                        &:hover{
+                            background-color: #e8e3d8;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.res-desc{
+    padding: 5px;
+    border-radius: 2px;
+    border: #030303 solid;
+    margin: 5px;
+}

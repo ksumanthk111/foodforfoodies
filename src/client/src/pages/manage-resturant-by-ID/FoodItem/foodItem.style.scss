@@ -1,0 +1,85 @@
+.food-item{
+    width: calc(100% - 30px);
+    padding: 10px 0px 10px 30px;
+    height: auto;
+    background-color: rgb(156, 248, 156);
+ 	margin-bottom: 10px;
+    margin-left: 20px;
+     .two-component{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .food-item-img{
+            height: 100px;
+            width: 200px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .food-describe{
+            color: rgb(87, 46, 46);
+            font-size: 24px;
+        }
+        .fooditem-operations{
+            display: flex;
+            .food-item-operation{
+                font-size: 36px;
+                cursor: pointer;
+                margin-right: 30px;
+            }
+            .remove-food-item{
+                &:hover{
+                    color: red;
+                }
+            }
+            .edit-food-item{
+                &:hover{
+                    color: rgb(2, 255, 111);
+                }
+            }
+        }
+      
+     }
+     .extend-this-edit-option{
+        min-height: 100px;
+        width: 100%;
+        margin-top: 10px;
+        background-color: #64f5da;
+        height: auto;
+        padding: 20px;
+        .save-btn{
+            border:1px solid black;
+            background-color: green;
+            cursor: pointer;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            justify-content: center;
+            &:hover{
+                background-color: rgb(36, 36, 247);
+            }
+        }
+        p{
+            font-size: 24px;
+        }
+        .fi-input-field{
+            input{
+
+            }
+        }
+        input{
+            font-size: large;
+            padding: 10px 10px;
+            border-radius: 5%;
+
+        }
+        label{
+            padding: 5px 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            label { display: inline-block; width: 210px; text-align: right; }
+        }
+    }   
+}
+
